@@ -628,8 +628,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
   margin-bottom: 20px;
   color: white;
   font-size: 14px;
-  line-height: 25px;
-  text-align: center;
+  line-height: 15px;
 }
 .sepreater {
   display: block;
@@ -862,7 +861,6 @@ box-shadow: 5px 5px 0px #20AE61;
 }
 .process-paragraph {
   color: white;
-  text-align: center;
 }
 .porfolio-paragraph {
   margin-top: 20px;
@@ -1121,7 +1119,6 @@ line-height: 1.55;
 }
 .about-des {
   color: white;
-  text-align: center;
  font-family: Gotham SSm,sans-serif;
  line-height: 1.55;
 }
@@ -1185,7 +1182,7 @@ line-height: 1.55;
 }
 .about-parlex {
   padding-top: 15px;
-  background-color: #323A45;
+  background-color: #1E90FF;
 }
 .parlex8-back {
   padding-top: 15px;
