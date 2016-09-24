@@ -988,6 +988,9 @@ box-shadow: 5px 5px 0px #20AE61;
 font-family: Gotham SSm,sans-serif;
 font-size: 16px;
 line-height: 1.55;
+color: #FFF;
+ text-transform: uppercase;
+
 }
 
 .experinc-box-h3 {
