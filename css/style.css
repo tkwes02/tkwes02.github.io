@@ -569,7 +569,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 }
 .menu-li:hover {
   border-top-style: none;
-  background-color: #2fde8f;
+  background-color: #FFD700;
   color: white;
   font-weight: 700;
 }
