@@ -629,6 +629,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
   color: white;
   font-size: 14px;
   line-height: 15px;
+  text-align: center;
 }
 .sepreater {
   display: block;
@@ -906,7 +907,7 @@ box-shadow: 5px 5px 0px #20AE61;
   border-radius: 0px;
   background-color: #ffce54;
   box-shadow: none;
-  color: black;
+  color:
   text-align: center;
   text-decoration: none;
 }
