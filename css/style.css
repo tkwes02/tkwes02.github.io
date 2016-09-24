@@ -985,6 +985,12 @@ box-shadow: 5px 5px 0px #20AE61;
 
 }
 
+.sub-heading {
+font-family: Gotham SSm,sans-serif;
+font-size:16px;
+line-height: 1.55px;
+}
+
 .experinc-box-h3 {
   font-family: Gotham,sans-serif;
   line-height:1.3; 
@@ -1389,7 +1395,8 @@ font-size: 18px;
     overflow-y: visible;
   }
 
-  .experinc-box-h3 {font-size: 60px;}
+  .experinc-box-h3 {font-size: 30px;}
+  .sub-heading {font-size: 10px;}
   .ex-btn {padding: 11px;}
   .ex-btn-two {padding: 5px;}
   #clients .clients-wrap {width: 80% !important;height: 50px;}
@@ -1418,7 +1425,8 @@ font-size: 18px;
 
   .fixed-header {position: relative;}
   .slidersection {padding-top: 0px;}
-  .experinc-box-h3 {font-size: 45px;font-weight: 100;line-height: 40px;}
+  .experinc-box-h3 {font-size: 20px; font-weight: 100; line-height: 40px;}
+  .sub-heading {font-size: 10px; line-height: 1.55px}
   .btn-ex-two {margin-top: 53px;margin-left: 0;}
   #clients .clients-wrap {width: 55% !important; height: 50px;}
   .fotter-quote,.copyright-area {text-align: center;}
