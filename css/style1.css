@@ -1,0 +1,247 @@
+
+
+
+
+body {
+	
+	
+background-color: #FFA500;
+height: 100%;
+width: 100%
+    margin: 0;
+    padding: 0px;
+   
+	}
+
+
+.circle1 {
+	/* This position the circle itself */
+	position: absolute;
+	left: 100px;
+	top: 15px;
+	/* This creates the circle and impacts the content inside */
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	font-size: 25px;
+	font-family: impact;
+	color:#fff;
+	line-height: 53px;
+	text-align: center;
+	background:#666666;
+	box-shadow: 4px 4px 2px #888888;
+}
+.circle2 {
+	/* This position the circle itself */
+	position: absolute;
+	left: 135px;
+	top: 20px;
+	/* This creates the circle and impacts the content inside */
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	font-size: 25px;
+	font-family: impact;
+	text-decoration: underline;
+	color:#fff;
+	line-height: 53px;
+	text-align: center;
+	background:#7EC0EE;
+	box-shadow: 4px 4px 2px #888888;
+}
+
+
+
+#container {
+	text-align: right;
+    width: 100%; 
+}
+h1 {
+	font-size: 90px;
+	font-family: Arial Black;
+	color:#ffffff;
+	letter-spacing: 0px;
+	position: absolute;
+      
+	text-transform: uppercase;
+	left: 800px;
+
+}
+
+#img {
+
+	height: 90px; 
+	width: 90px;
+}
+
+#footer{
+
+	font-size: 14px;	
+	font-family: sans-serif;
+	color: #ffdab9;
+	cursor:sw-resize;
+}
+h2 {
+	letter-spacing: -2px;
+	font-family: Arial Black;
+	text-transform: uppercase;
+	
+}
+
+ td {
+	padding: 5px 0px 5px  10px;
+
+
+}
+
+.sidetext {
+	letter-spacing: -2px;
+	font-size:20px; 
+	color: #FFFFFF ; 
+	font-family: verdana;
+	text-transform: uppercase;
+
+}
+.tablecenter{
+margin: 0 auto;
+width: 600px;
+position: absolute;
+top: 700px;
+
+left: 300px;
+}
+
+.content {
+
+		width: 280px; 
+	font-size: 13px; 
+	font-family: Tahoma;
+}
+
+
+
+.heading1 {
+	text-align:left;
+	font-size: 135px;
+	font-family: Tahoma;
+	letter-spacing: -8px;
+}
+
+
+.heading2 {
+	
+
+	font-size: 20px;
+	font-family: Arial;
+	color: #ffdab9;
+	text-transform: uppercase;
+}
+
+a:visited, a:link, a:active { color: #fff; text-decoration: none; }
+ a:hover { color: #fff; text-decoration: none; font-size:120% }
+
+/* game page addtional styling*/
+
+.fontheader {
+	/* This position the text itself */
+	
+	position: relative;
+	left: 200px;
+	top: 18px;
+	/* text styling */
+	font-family: impact;
+	font-size: 24px;
+	cursor:pointer;
+	color:#fff;
+	line-height: 40px;
+	letter-spacing: 2.5px;
+	text-transform:uppercase;
+
+}
+
+.square1 {
+	/* This position the square itself */
+	
+	position: absolute;
+	left: 110px;
+	top: 715px;
+	/* style the square and text */
+
+	height: 150px;
+	width: 150px;
+	padding: 5px;
+	border: 1px solid white;
+	cursor: crosshair;
+	font-size: 14px;
+	font-family: sans-serif;
+	color:#ffffff;
+	background:#0e6eb8;
+
+}
+
+
+.square2 {
+	/* This position the square itself */
+	
+	position: absolute;
+	left: 310px;
+	top: 715px;
+	/* style the square and text */
+
+	height: 150px;
+	width: 150px;
+	padding: 5px;
+	border: 1px solid white;
+	cursor: crosshair;
+	font-size: 14px;
+	font-family: sans-serif;
+	color:#ffffff;
+	background:#7d7d7d;
+
+}
+
+.canvasposition {
+
+	position: absolute;
+    left: 200px}
+
+/* list decoration */
+
+
+ul {
+
+	position: relative;
+	left: -35px;
+	min-width: 90%;
+
+}
+
+li {
+
+
+	list-style:none;
+}
+
+
+li.fields {
+	margin: 0px;
+	padding: 1em 0;
+
+}
+
+li.title {
+cursor: pointer;
+text-align: center;
+font-weight: bold;
+font-size: 1.5em;
+line-height: 2em;
+background: #e3e3e3;
+border-bottom: 1px solid #c5c5c5;
+border-top: 1px solid white;
+
+
+}
+
+.hide{
+	display: none;
+}
