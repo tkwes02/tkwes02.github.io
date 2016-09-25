@@ -1,0 +1,81 @@
+<! doctype html>
+
+<html>
+<head>
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" type="text/css" href="soc.js-master/soc.min.css">
+
+
+<script type="text/javascript">
+
+
+var imageArray = new Array("me.jpg","skeleton.jpg","cat.jpg","joker.jpg");
+var imageLength = imageArray.length;
+var currentImage = 0;
+
+function imageChange() {
+
+   
+if (currentImage >= imageLength)
+{
+currentImage = 0;
+}
+
+document.images["image"].src = imageArray[currentImage];
+currentImage++;
+
+
+}
+function image_onload() {
+
+	setInterval("imageChange()", 4000);
+}
+
+
+
+
+window.onload = image_onload();
+
+
+</script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+<div class="circle1">T
+</div>
+<div class="circle2">K
+</div>
+
+<div class="fontheader"><a href="index.html">
+go back </a></div>
+
+<div class="square1">
+ :::Project:::<p>
+ Arcade 70s style tennis game. <p>
+Uses Javascript and HTML Canvas. Learned from Gamkedo. A flavor of physics and AI. 
+</div>
+
+
+<div class="square2">
+ :::How to play:::<p>
+ Move the paddle to bounce off the ball. Don't let the ball pass the paddle. Beat the computer by three points.</div>
+
+
+<canvas id="gameCanvas" width="800" height="600" style="border: 1px solid #d3d3d3; margin-left: 100px; margin-top:35px">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script type="text/javascript" src="game.js"></script>
+
+
+
+
+</body>
+</html>
