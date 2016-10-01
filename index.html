@@ -532,20 +532,24 @@
           <p class="contact-para">Ready To Start A Project? Contact us!</p>
           
           <div class="w-form">
+            
             <form action="contact.php" method="post">
-         
-            <label for="name">Name:</label>
+            
+              <div class="row">
+            <div class="col-md-6">
             
              <input type="text" maxlength="15" size="15" placeholder="Name" name="cf_name">
                      
-            
-            <label for="email">Email Address:</label>
-             <input placeholder="Enter your email address" size="15" type="text" name="cf_email" required="required">
-           
+                </div>
+            <div class="col-md-6">
+              
+             <input placeholder="Email" size="15" type="text" name="cf_email" required="required">
+                </div></div>           
               <label for="email">Your Message:</label>
              <textarea class="w-input message" placeholder="Enter your Message Here" name="cf_message" rows="4" cols="50"></textarea><br>
            <input class="w-button" type="submit" value="Send">
-            </form>
+            
+              </form>
               </div>
           <div class="w-form-done">
               <p>Thank you! Your submission has been received!</p>
