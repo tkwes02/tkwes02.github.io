@@ -533,20 +533,15 @@
           
           <div class="w-form">
             <form action="contact.php" method="post">
-              
-          <div class="row">
-            <div class="col-sm-4">
+         
             <label for="name">Name:</label>
             
-             <input type="text" size="15" placeholder="Name" name="cf_name">
-             
-           </div>
-            <div class="col-sm-4">
+             <input type="text" maxlength="15" size="15" placeholder="Name" name="cf_name">
+                     
             
             <label for="email">Email Address:</label>
-             <input class="w-input" placeholder="Enter your email address" size="4" type="text" name="cf_email" required="required">
-            </div>
-              </div>
+             <input placeholder="Enter your email address" size="15" type="text" name="cf_email" required="required">
+           
               <label for="email">Your Message:</label>
              <textarea class="w-input message" placeholder="Enter your Message Here" name="cf_message" rows="4" cols="50"></textarea><br>
            <input class="w-button" type="submit" value="Send">
