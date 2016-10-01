@@ -536,16 +536,19 @@
             <form action="contact.php" method="post">
             
             
-           
-          
-             <input type="text" maxlength="25"  placeholder="Name" name="cf_name">
-                     
-            
+           <div class="w3-row-padding">
+  <div class="w3-third">
+    <input class="w3-input" type="text" placeholder="Name" name="cf_name">
+  </div>
+  <div class="w3-third">
+    <input class="w3-input" type="text" placeholder="Two"  name="cf_email" required="required" >
+  </div>
+  <div class="w3-third">
+    <input class="w3-input" type="text" placeholder="Three"  name="cf_website" required="required">
+  </div>
+</div>
               
-             <input placeholder="Email"  type="text" name="cf_email" required="required"  class="w-col-medium-offset-3">
-                   
-              
-             <input placeholder="Website" type="text" name="cf_website" required="required"  class="w-col-medium-offset-11">
+        
            
              <br><br>
                <div class="w-form"> 
